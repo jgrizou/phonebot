@@ -2,9 +2,10 @@
   "main": "src/index.html",
   "scripts": {
     "prebuild": "rm -rf docs",
-    "build": "parcel build src/index.html --out-dir docs",
+    "build": "parcel build --no-minify src/index.html  --out-dir docs --public-url ./",
     "predev": "rm -rf docs",
-    "dev": "parcel src/index.html --out-dir docs"
+    "dev": "parcel src/index.html --out-dir docs",
+    "deploy": "npm run build && git add . && git commit -a -m 'latest build' && git push origin master"
   },
   "staticFiles": {
     "staticPath": "src/static",

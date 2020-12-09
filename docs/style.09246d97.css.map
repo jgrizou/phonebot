@@ -1,1 +1,0 @@
-{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,aACE,WAAY,CACZ,UACF,CAOA,aACE,eACF","file":"style.09246d97.css","sourceRoot":"../src","sourcesContent":[".left, .right {\n  height: 50vh;\n  width: 100%;\n}\n\n\n.left {\n  background: white;\n}\n\n.right {\n  background: white;\n}"]}
