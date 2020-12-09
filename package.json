@@ -1,10 +1,10 @@
 {
   "main": "src/index.html",
   "scripts": {
-    "prebuild": "rm -rf dist",
-    "build": "parcel build src/index.html",
-    "predev": "rm -rf dist",
-    "dev": "parcel src/index.html"
+    "prebuild": "rm -rf docs",
+    "build": "parcel build src/index.html --out-dir docs",
+    "predev": "rm -rf docs",
+    "dev": "parcel src/index.html --out-dir docs"
   },
   "staticFiles": {
     "staticPath": "src/static",
