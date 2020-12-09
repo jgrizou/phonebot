@@ -1,2 +1,3 @@
-# phonebot
-A library of webpages to control a smartphone powered robot
+# Smartphone powered robot
+
+https://jgrizou.github.io/phonebot/
