@@ -1,0 +1,13 @@
+.left, .right {
+  height: 50vh;
+  width: 100%;
+}
+
+
+.left {
+  background: white;
+}
+
+.right {
+  background: white;
+}
