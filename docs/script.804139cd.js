@@ -519,4 +519,4 @@ function button_callback() {
 
 setTimeout(button_callback, 1000);
 },{"./camvas.js":"WVwn","./pico.js":"sGue"}]},{},["MZhh"], "global")
-//# sourceMappingURL=/script.804139cd.js.map
+//# sourceMappingURL=https://jgrizou.github.io/phonebot/script.804139cd.js.map

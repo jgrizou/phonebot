@@ -18287,4 +18287,4 @@ window.addEventListener('load', function () {
   }, 1000);
 });
 },{"bootstrap":"BQpi","bootstrap/dist/css/bootstrap.css":"w26S"}]},{},["FZY1"], "global")
-//# sourceMappingURL=/script.7fc79f3f.js.map
+//# sourceMappingURL=https://jgrizou.github.io/phonebot/script.7fc79f3f.js.map

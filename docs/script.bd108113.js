@@ -18709,4 +18709,4 @@ window.addEventListener('load', function () {
   onLoad();
 });
 },{"bootstrap":"BQpi","bootstrap/dist/css/bootstrap.css":"w26S","./camvas":"VdL0","./pico":"S7HL"}]},{},["SbLQ"], "global")
-//# sourceMappingURL=/script.bd108113.js.map
+//# sourceMappingURL=https://jgrizou.github.io/phonebot/script.bd108113.js.map
