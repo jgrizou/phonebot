@@ -2,9 +2,9 @@
   "main": "src/index.html",
   "scripts": {
     "prebuild": "rm -rf docs",
-    "build": "parcel build --no-minify src/index.html  --out-dir docs --public-url ./",
+    "build": "parcel build --no-minify src/index.html  --out-dir docs --public-url ./ --global global",
     "predev": "rm -rf docs",
-    "dev": "parcel src/index.html --out-dir docs",
+    "dev": "parcel src/index.html --out-dir docs --global global",
     "deploy": "npm run build && git add . && git commit -a -m 'latest build' && git push"
   },
   "staticFiles": {
@@ -12,7 +12,10 @@
     "watcherGlob": "**"
   },
   "dependencies": {
+    "@tensorflow/tfjs-node": "^2.8.1",
     "bootstrap": "^4.5.3",
+    "canvas": "^2.6.1",
+    "face-api.js": "^0.20.0",
     "include": "^1.1.0"
   },
   "devDependencies": {

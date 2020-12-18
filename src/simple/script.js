@@ -1,9 +1,10 @@
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.css' // Import precompiled Bootstrap css
+
 
 var currentState = 0;
 
-
 function setState(state) {
-    console.log(state)
 
     var left = document.getElementById('left')
     var right = document.getElementById('right')
