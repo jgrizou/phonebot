@@ -2,7 +2,7 @@
   "main": "src/index.html",
   "scripts": {
     "prebuild": "rm -rf docs",
-    "build": "parcel build --no-minify src/index.html  --out-dir docs --public-url https://jgrizou.github.io/phonebot/ --global global",
+    "build": "parcel build --no-minify src/index.html --out-dir docs --public-url https://jgrizou.github.io/phonebot/ --global global",
     "predev": "rm -rf docs",
     "dev": "parcel src/index.html --out-dir docs --global global",
     "deploy": "npm run build && git add . && git commit -a -m 'latest build' && git push"
