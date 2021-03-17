@@ -36,6 +36,8 @@ Cons:
 
 ## Web Bleutooth
 
+- https://itpnyu.github.io/p5ble-website/
+
 - https://github.com/kpatel122/ESP32-Web-Bluetooth-Terminal
 - https://github.com/nguyenthuongvo/webluetooth_esp32
 
@@ -54,6 +56,21 @@ Cons:
 - https://github.com/jtnimoy/rigglin
 - https://ycatch.github.io/blockp5.js/example.html
 - https://ycatch.github.io/blockp5.js/
+
+
+## Applications
+
+PoseNet:
+ - https://www.youtube.com/watch?v=EA3-k9mnLHs 
+ - https://editor.p5js.org/codingtrain/sketches/Skd42hIy4 a
+
+ tracking hand position (https://github.com/tensorflow/tfjs-models/tree/master/handpose and https://github.com/victordibia/handtrack.js/), 
+ 
+ detecting signs/objects, 
+ 
+ using sounds command (https://github.com/tensorflow/tfjs-models/tree/master/speech-commands), 
+ 
+ and even interfacing with Bluetooth devices (https://itpnyu.github.io/p5ble-website/).
 
 
 
