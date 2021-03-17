@@ -7,6 +7,9 @@ From https://github.com/toxtli/lightweight-webcam-javascript-face-detection
 
 ## Espruino (MicroJS)
 
+https://twitter.com/espruino?lang=fr
+https://www.linkedin.com/in/gordon-williams-09b7a61/
+
 Directly programmable via web
 
 Important:
@@ -42,6 +45,16 @@ Cons:
 ## Plotting
 
 - https://plotly.com/javascript/
+
+## p5js blockly
+
+- https://github.com/bn3t/p5js-livereload
+
+- https://rigglin.appspot.com/static/index.html
+- https://github.com/jtnimoy/rigglin
+- https://ycatch.github.io/blockp5.js/example.html
+- https://ycatch.github.io/blockp5.js/
+
 
 
 ## Johnny-Five - JS framework for robotics
