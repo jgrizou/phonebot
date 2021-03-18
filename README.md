@@ -48,6 +48,11 @@ Cons:
 
 - https://plotly.com/javascript/
 
+
+## Recording video
+
+- https://stackoverflow.com/questions/42437971/exporting-a-video-in-p5-js
+
 ## p5js blockly
 
 - https://github.com/bn3t/p5js-livereload
@@ -56,6 +61,19 @@ Cons:
 - https://github.com/jtnimoy/rigglin
 - https://ycatch.github.io/blockp5.js/example.html
 - https://ycatch.github.io/blockp5.js/
+
+## WebRTC
+
+- https://experiments.withgoogle.com/search?q=webrtc
+
+- https://editor.p5js.org/shawn/sketches/jZQ64AMJc
+- https://github.com/vanevery/p5LiveMedia
+
+
+- https://github.com/lisajamhoury/WebRTC-Simple-Peer-Examples#to-run-signal-server-online-with-ngrok
+- https://github.com/feross/simple-peer
+- https://peerjs.com/index.html
+- https://editor.p5js.org/marynotari/sketches/fkZCglpWp
 
 
 ## Applications
