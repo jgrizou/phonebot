@@ -78,6 +78,9 @@ Cons:
 
 ## Applications
 
+Eye-Gaze:
+- https://webgazer.cs.brown.edu/#video
+
 PoseNet:
  - https://www.youtube.com/watch?v=EA3-k9mnLHs 
  - https://editor.p5js.org/codingtrain/sketches/Skd42hIy4 a
