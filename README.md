@@ -2,11 +2,11 @@
 
 Prototype of a self-driving robot controlled by a smartphone.
 
+Check out [Kirstin Ritchie](https://github.com/Kirstin813) work on self-driving car based on this robot at https://github.com/Kirstin813/L4-Individual-Project. Lots of great examples, like this line following demo:
+
 <p align="center" width="100%">
     <img width="33%" src="https://github.com/Kirstin813/L4-Individual-Project/blob/main/media/linetracking.gif">
 </p>
-
-Check out [Kirstin Ritchie](https://github.com/Kirstin813) work on self-driving car based on this robot at https://github.com/Kirstin813/L4-Individual-Project. Lots of amazing demos!
 
 
 ## How it is built
