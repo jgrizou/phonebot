@@ -1,121 +1,54 @@
-# Smartphone powered robot
+# Smartphone powered self-driving robot
 
-https://jgrizou.github.io/phonebot/
+Prototype of a self-driving robot controlled by a smartphone.
 
-From https://github.com/toxtli/lightweight-webcam-javascript-face-detection
+<p align="center" width="100%">
+    <img width="33%" src="https://kirstin813.github.io/L4-Individual-Project/src/lineTracking/">
+</p>
 
-
-## Espruino (MicroJS)
-
-https://twitter.com/espruino?lang=fr
-https://www.linkedin.com/in/gordon-williams-09b7a61/
-
-Directly programmable via web
-
-Important:
-- with Bluetooth, possibility to upload the program in the robot before starting, so both robot embedded code and web control comes into the same packages
-
-Pros:
-- directly code robot via web too
-- using blockly
-- using web bluetooth
-- with app store: https://espruino.github.io/EspruinoApps/
-
-Cons:
-- not fully considered by all browser, but work around exists, e.g. https://www.greenparksoftware.co.uk/projects/webble/1.2.3 and https://www.ciderapp.io/
+Check out [Kirstin Ritchie](https://github.com/Kirstin813) work on self-driving car based on this robot at https://github.com/Kirstin813/L4-Individual-Project. Lots of amazing demos!
 
 
-- https://espruino.github.io/EspruinoWebIDE/
-- https://www.espruino.com/
-- works with WebBLE: https://www.hackster.io/akos-lukacs/blenergygraphs-7e7b9c
+## How it is built
+
+### BOM
+
+- https://proto-pic.co.uk/product/sparkfun-prt-14411-lipo-charger-booster-5v-1a/	
+- https://proto-pic.co.uk/product/2001-plastic-gearmotor-90-output/
+- https://proto-pic.co.uk/product/sparkfun-rob-14451-motor-driver-dual-tb6612fng-1a/
+- https://proto-pic.co.uk/product/polymer-lithium-ion-battery-37v-1ah/
 - https://shop.espruino.com/mdbt42q-breakout
 
-- https://www.espruino.com/Modules#espruino-modules
-- https://shop.espruino.com/banglejs
+3D models:
+- robot base: https://cad.onshape.com/documents/858420b45d74a6c130741a27/w/ccd74c6c91d1447417ffa0b3/e/e34cca09c53379cb87889070?renderMode=0&uiState=62501d0795faa529ca2ae411
+- phone holder: https://cad.onshape.com/documents/7d8586f8a6d17dcb3bcccbce/w/9b9c587dccb38628041160f6/e/8ecb82fc88e8a341ed6ea32a?renderMode=0&uiState=62501d3d633408504e725da1
 
 
-## Web Bleutooth
+## Embedded Code 
 
-- https://itpnyu.github.io/p5ble-website/
+We use https://shop.espruino.com/mdbt42q-breakout as the microcontroller. It runs Javascript and can be controlled via webbleutooth from a browser. See http://forum.espruino.com/conversations/362281 for an in-depth discussion on our use of Espruino for this robot.
 
-- https://github.com/kpatel122/ESP32-Web-Bluetooth-Terminal
-- https://github.com/nguyenthuongvo/webluetooth_esp32
+Code uploaded on the robot is at https://github.com/jgrizou/phonebot/blob/main/espruino/dev.js
 
-- https://webbluetoothcg.github.io/web-bluetooth/
+## Robot control and demos
 
+See https://kirstin813.github.io/L4-Individual-Project/src/simple/ for a controller for this robot.
 
-## Plotting
+Check out [Kirstin Ritchie](https://github.com/Kirstin813) work on self-driving car based on this robot at https://github.com/Kirstin813/L4-Individual-Project. 
 
-- https://plotly.com/javascript/
+Lots of amazing demos at https://github.com/Kirstin813/L4-Individual-Project/tree/main/src#instructions-for-use
 
+## Similar projects
 
-## Recording video
-
-- https://stackoverflow.com/questions/42437971/exporting-a-video-in-p5-js
-
-## p5js blockly
-
-- https://github.com/bn3t/p5js-livereload
-
-- https://rigglin.appspot.com/static/index.html
-- https://github.com/jtnimoy/rigglin
-- https://ycatch.github.io/blockp5.js/example.html
-- https://ycatch.github.io/blockp5.js/
-
-## WebRTC
-
-- https://experiments.withgoogle.com/search?q=webrtc
-
-- https://editor.p5js.org/shawn/sketches/jZQ64AMJc
-- https://github.com/vanevery/p5LiveMedia
+- https://thecraftyrobot.net/pages/smartibot-programming
 
 
-- https://github.com/lisajamhoury/WebRTC-Simple-Peer-Examples#to-run-signal-server-online-with-ngrok
-- https://github.com/feross/simple-peer
-- https://peerjs.com/index.html
-- https://editor.p5js.org/marynotari/sketches/fkZCglpWp
+## Useful tools
+
+- https://github.com/cmurray95/espruino-remote-uploader with doc at https://cmurray95.github.io/espruino-remote-uploader/
 
 
-## Applications
+## License
 
-Eye-Gaze:
-- https://webgazer.cs.brown.edu/#video
-
-PoseNet:
- - https://www.youtube.com/watch?v=EA3-k9mnLHs 
- - https://editor.p5js.org/codingtrain/sketches/Skd42hIy4 a
-
- tracking hand position (https://github.com/tensorflow/tfjs-models/tree/master/handpose and https://github.com/victordibia/handtrack.js/), 
- 
- detecting signs/objects, 
- 
- using sounds command (https://github.com/tensorflow/tfjs-models/tree/master/speech-commands), 
- 
- and even interfacing with Bluetooth devices (https://itpnyu.github.io/p5ble-website/).
-
-
-
-## Johnny-Five - JS framework for robotics
-
-- https://github.com/rwaldron/johnny-five
-- https://dtex.github.io/j5e/index.html
-
-
-## ESP32-CAM
-
-Idea: use a QR code detection directly from a camera:
-- increase number of command
-- potentially load program from there?
-
-A bit silly, better go for WebBluetooth and keep a simple sensor to start
-
-- https://github.com/donny681/ESP32_CAMERA_QR/
-- https://github.com/Schaggo/QR-ARDUINO/tree/master/src
-
-### MicroPython
-
-- https://www.programmersought.com/article/27476367652/
-- https://lemariva.com/blog/2020/02/micropython-timelapse-video-using-esp32-cam
-
-
+TODO: cite work to be published
 
