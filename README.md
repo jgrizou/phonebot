@@ -24,7 +24,7 @@ Check out [Kirstin Ritchie](https://github.com/Kirstin813) work on self-driving 
 - phone holder: https://cad.onshape.com/documents/7d8586f8a6d17dcb3bcccbce/w/9b9c587dccb38628041160f6/e/8ecb82fc88e8a341ed6ea32a?renderMode=0&uiState=62501d3d633408504e725da1
 
 
-## Embedded Code 
+### Embedded Code 
 
 We use https://shop.espruino.com/mdbt42q-breakout as the microcontroller. It runs Javascript and can be controlled via webbleutooth from a browser. See http://forum.espruino.com/conversations/362281 for an in-depth discussion on our use of Espruino for this robot.
 
@@ -38,10 +38,11 @@ Check out [Kirstin Ritchie](https://github.com/Kirstin813) work on self-driving 
 
 Lots of amazing demos at https://github.com/Kirstin813/L4-Individual-Project/tree/main/src#instructions-for-use
 
-## Similar projects
+## Related projects
 
 - https://thecraftyrobot.net/pages/smartibot-programming
-
+- https://www.openbot.org/
+- https://aws.amazon.com/deepracer/
 
 ## Useful tools
 
